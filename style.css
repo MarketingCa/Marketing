@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;    
+    font-family: 'Gabarito', sans-serif;
+}
+.logo_m{
+    width: 100px;
+}
+.logo1{
+    width: 100px;
+}
+
+.logo1:hover {
+    cursor: pointer;
+}
+
+.container1{
+    padding: 5px;
+    background-color: #1a72cd;
+}
+.container2{
+    padding: 5px;
+    background-color: #307dcd;
+}
+.container3 {
+    padding: 5px;
+    background-color: #4789cd;
+}
+.container4{
+    padding: 5px;
+    background-color: #5992cd;
+}
+.container5 {
+    padding: 5px;
+    background-color: #699acd;
+}
+nav{
+    background-color: #fff;
+    padding: 30px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+.center-things{
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    margin: auto;
+    width: 90%;
+    height: 40px;
+}
+.pessoas{
+    background-color: white;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+span{
+    font-size: 25px;
+    margin-left: 50px;
+    font-weight: unset;
+}
+@media (max-width: 740px){
+    nav{
+        padding: 20px;
+    }
+    .logo_m{
+        width: 50PX;
+    }
+    nav a{
+        font-size: 16px;
+    }
+    span{
+        font-size: 16px;
+    }
+}
+
+/* FALE CONOSCO */
+
+.fale_conosco {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    background-color: #699acd;
+    height:710px;
+}
+
+/* SOBRE */
+.sobre{
+    text-align: justify;
+    background-color: #307dcd;
+    height:100%;
+    color: white;
+    font-size: 1.2em;
+}
+.sobre .center-sobre{
+    margin: auto;
+    width:79%;
+}
+.sobre .center-sobre h2{
+    padding-top: 10px;
+    font-size: 2.5em;
+}
+.sobre .center-sobre h2, p{
+    margin: 0px 0px 10px 0px;
+}
+.sobre .center-sobre span a{
+    color: white;
+    text-decoration: none;
+}
+.sobre .center-sobre span a:hover{
+    text-decoration: underline;
+}
+#center-sobre-imagem{
+    display: flex;
+    justify-content: center;
+}
+#sobre-imagem{
+    box-shadow: 2px 2px 6px #255a92;
+    border: 1px solid white;
+    padding: 3px;
+    border-radius: 10px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+@media screen and (min-width: 1070px) {
+    .sobre{
+        height:100%px;
+        font-size: 1.5em;
+    }
+    .sobre .center-sobre h2{
+        padding-top: 40px;
+        font-size: 2.5em;
+    }
+    .sobre .center-sobre h2, p{
+        margin: 0px 0px 30px 0px;
+    }
+    #sobre-imagem{
+        height: 250px;
+    }
+}
+
+/* ÁREA DE ATUAÇÃO */
+
+.area_atuacao{
+    text-align: justify;
+    background-color: #4789cd;
+    height:510px;
+    color: white;
+    font-size: 1.2em;
+}
+.area_atuacao .center-sobre{
+    margin: auto;
+    width:79%;
+}
+.area_atuacao .center-sobre h2{
+    padding-top: 10px;
+    font-size: 2.5em;
+}
+.area_atuacao .center-sobre h2, p{
+    margin: 0px 0px 10px 0px;
+}
+#center-area-imagem{
+    display: flex;
+    justify-content: center;
+}
+#area_imagem{
+    box-shadow: 2px 2px 6px #255a92;
+    border: 1px solid white;
+    padding: 3px;
+    border-radius: 10px;
+}
+@media screen and (min-width: 1070px) {
+    .area_atuacao{
+        height: 1030px;
+        font-size: 1.5em;
+    }
+    .area_atuacao .center-sobre h2{
+        padding-top: 40px;
+        font-size: 2.5em;
+    }
+    .area_atuacao .center-sobre h2, p{
+        margin: 0px 0px 30px 0px;
+    }
+    #area_imagem{
+        height: 250px;
+    }
+}
+
+/* ATIVIDADES */
+.atividades{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    background-color: #5992cd;
+    height: 100%;
+    color: white;
+    font-size: 1.2em;
+}
+.atividades .center-atividades{
+    margin: auto;
+    width:79%;
+}
+.atividades .center-atividades h2{
+    padding-top: 10px;
+    font-size: 2.5em;
+}
+.atividades .center-atividades h2, p{
+    margin: 0px 0px 10px 0px;
+}
+#center-atividades-imagem{
+    display: flex;
+    justify-content: center;
+}
+#atividades-imagem{
+    box-shadow: 2px 2px 6px #255a92;
+    border: 1px solid white;
+    padding: 3px;
+    border-radius: 10px;
+    height: 200px;
+    margin-bottom: 20px;
+}
